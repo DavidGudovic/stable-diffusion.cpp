@@ -1,3 +1,9 @@
+> **Pinhole engine build.** This fork builds the `sd-server` used by
+> [Pinhole](https://github.com/DavidGudovic/PinholeAI). It is the official
+> [stable-diffusion.cpp](https://github.com/leejet/stable-diffusion.cpp) unchanged, except that
+> the local server requires a per-launch key and refuses requests from web pages (see
+> [`pinhole/`](pinhole/README.md)). For general use, please use the upstream project.
+
 <p align="center">
   <img src="./assets/logo.png" width="360x">
 </p>
